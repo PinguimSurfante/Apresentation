@@ -1,0 +1,116 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+#title{
+    background-color: #e4f9f5;
+}
+
+.images{
+    width: 50%;
+    height: 50%;
+}
+
+.images_2{
+    width: 12%;
+    height: 12%;
+    margin-left: 5rem;
+}
+
+.images_3{
+    width: 20%;
+    height: 20%;
+    margin-left: 15rem;
+    margin-bottom: 0%;
+}
+
+.images_4{
+    margin-top: 8%;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+#skills{
+    text-align: center;
+    margin-top: 8%;
+    color: #66bfbf  !important;
+}
+
+#sub_skills{
+    color: #66bfbf  !important;
+}
+
+.images_5{
+    width: 15%;
+    height: 15%;
+    margin-left: 10rem;
+    float: left;
+}
+
+.description{
+    font-size: 1rem;
+    text-align: left;   
+}
+
+.contact{
+    margin-top: 8%;
+    font-family: "Funel Sans", sans-serif;
+    color: #66bfbf  !important;
+}
+
+#h2_id{
+    color: #66bfbf  !important;
+}
+
+.footer{
+    background-color: #BEE4D0;
+}
+
+#h2{
+    font-size: 1.50rem;
+    font-family: "Funel Sans", sans-serif;
+}
+
+span{
+    text-decoration: underline;
+}
+
+#apresentation{
+    font-family: "Sacramento", cursive;
+    font-size: 4rem;
+}
+
+p{
+    font-family: "Merriweather", serif;
+    font-size: 1rem;
+}
+
+#hi {
+    color: #66bfbf  !important;
+    font-family: "Merriweather", serif;
+    font-size: 3rem;
+}
+
+@media (max-width: 680px) {
+    .images_5{
+        display: block;
+        width: 90%;
+        height: 90%;
+        align-content: center;
+        margin-left: 0%;
+    }
+
+    .description{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    #sub_skills{
+        color: #66bfbf  !important;
+        text-align: center;
+    }
+
+}
