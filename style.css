@@ -84,14 +84,17 @@ span{
 }
 
 p{
-    font-family: "Merriweather", serif;
     font-size: 1rem;
+    font-weight: 500;
 }
 
 #hi {
     color: #66bfbf  !important;
-    font-family: "Merriweather", serif;
     font-size: 3rem;
+}
+
+#estilo {
+    font-family: "Funnel Display", sans-serif;
 }
 
 @media (max-width: 680px) {
@@ -104,8 +107,11 @@ p{
     }
 
     .description{
-        text-align: center;
+        text-align: left;
         flex-wrap: wrap;
+        font-family: "Funnel Display", sans-serif;
+        font-weight: 400;
+        margin-left: 1rem;
     }
     
     #sub_skills{
