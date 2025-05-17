@@ -98,6 +98,11 @@ p{
     font-family: "Funnel Display", sans-serif;
 }
 
+.p_footer {
+    margin-left: 16rem;
+    text-align: center;
+}
+
 @media (max-width: 680px) {
     .images_5{
         display: block;
